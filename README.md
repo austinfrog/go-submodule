@@ -15,7 +15,7 @@ README.md    // This file
 ## Usage
 
 ```go
-import "github.com/austinfrog/go-submodule/foo"
+import "github.com/austinfrog/go-submodule/foo/v2"
 
 func main() {
     msg := foo.Hello()
