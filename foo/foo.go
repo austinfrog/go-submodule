@@ -1,6 +1,7 @@
 package foo
 
-// Hello returns a greeting string.
+import "github.com/google/uuid"
+
 func Hello() string {
-	return "Hello from go-submodule/foo/v2!"
+	return "hello from foo/v2: " + uuid.NewString()
 }
